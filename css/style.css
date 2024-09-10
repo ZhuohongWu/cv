@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+  }
+
+
+  nav{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;  
+    background-color: rgb(16, 15, 15);
+    padding: 20px 10px;
+  }
+
+  .name{
+    color: hwb(190 29% 2%);
+    font-size: 20px;
+  }
+
+  .contact {
+    color: rgb(184, 243, 20);
+    text-decoration: none;
+    font-size: 18px;
+    
+    
+  }
+
+  .contact:hover {
+    text-decoration: underline;
+    color: #c73d80;  
+  }
+
+  footer {
+    background-color: rgb(217, 203, 203); 
+    color: rgb(234, 16, 16);          
+    padding: 20px;         
+    display: flex;          
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column; 
+  }
+
+  footer a {
+    color: aquamarine;      
+    text-decoration: none;  
+    margin-top: 10px;       
+  }
+
+  .splash {
+    background-color: hsl(212, 25%, 15%);      
+  
+    background-size: cover;       
+    color: rgb(39, 32, 32);                   
+    text-align: center;             
+    padding: 10px 20px;            
+    height: 30vh;                  
+    display: flex;                  
+    flex-direction: column;         
+    justify-content: start;        
+    align-items: flex-start;           
+  }
+
+  .headshot {
+    width: 150px;  
+    border-radius: 50%;                   
+    height: 200px;                  
+ border: 5px solid rgb(64, 200, 193);        
+    margin-bottom: 20px;           
+  }
+
+  h1 {
+    background-color: rgb(13, 13, 13);
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;               
+    color: #51d5e4;                   
+    margin: 20px 0;                   
+  }
+
+  .address {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem; 
+    color: #64c6fa;   
+    text-align: center;   
+    background-color: #1f2224;  
+  }
+
+  .tagline{
+    font-family: Bookman, URW Bookman L, serif;
+    font-size: 1 rem;
+    color: #64c6fa;
+    background-color: #1f2224;  
+  }
+
+  hr{
+    background-color: #0f161b;
+    width: 90%;
+    border-top: 4px solid #3498db;    
+    border-bottom: 5px dashed #171818;  
+    
+  }
+
+  h2{
+    font-family: "Audiowide", sans-serif;
+background-color: #0f161b;
+    color: #21e8f2; 
+  }
+
+  .edu{
+    background-color: #0f161b;   
+    color: #64c6fa;   
+  }
+
+  .skill{
+    list-style-type: square;     
+    margin: 15px 0;    
+    background-color: #0f161b;
+    padding-left: 40px;
+color: #21e8f2;
+font-size: 2rem; 
+  }
+
+  .hnd{
+    display: grid;
+    grid-template-columns: 300px auto; 
+    gap: 20px 20px;   
+    align-items: flex-end;  
+    background-color: #0f161b; 
+    color: #21e8f2;
+   
+  }
+
+.a{
+    color: #f4f73f;  
+    text-decoration: none;      
+}
+
+
+.lne{
+    background-color: #0f161b;
+    color: #5ee0f1;
+
+}
+
+.three-col{
+    display: flex;   
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;   
+    gap: 5px;         
+}
+
+.project-img{
+    width: 20%; 
+    height: 100px;    
+}
+
+.card {
+    padding: 5px;
+    color: #21e8f2;
+    background-color: rgb(11, 9, 9);               
+    border-radius: 1px;                   
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.15); 
+    border: 6px solid #ddd;         
+    transition: transform 0.4s ease;      
+  }
+
+  .project-card {
+    text-align: left;
+  }
+
+  .project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #34b1db;
+  }
+
+  .top{
+    color: #21e8f2;
+  }
+
+.one-col{
+    max-width: 500px; 
+    background-color: rgb(25, 24, 24);
+    color: #21e8f2;
+    font-size: 16px;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column; 
+    background-color: #7ee2e2; 
+
+}
+
+form label {
+    margin-bottom: 2px;     
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 5px;         
+    margin-bottom: 10px;     
+    border: 1px solid #ccc; 
+    border-radius: 5px;      
+    font-size: 1rem;         
+}
+
+form input:focus, form textarea:focus {
+    outline: none;          
+    border-color: #0077b5;   
+}
+
+form textarea {
+    height: 100px;           
+    resize: vertical;   
+     
+}
+
+
+
+ 
+
