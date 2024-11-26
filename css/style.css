@@ -7,17 +7,17 @@ body {
     display: flex;
     justify-content: space-between; 
     align-items: center;  
-    background-color: rgb(16, 15, 15);
+    background-color: rgb(233, 146, 31);
     padding: 20px 10px;
   }
 
   .name{
-    color: hwb(190 29% 2%);
+    color: rgb(12, 12, 11);
     font-size: 20px;
   }
 
   .contact {
-    color: rgb(184, 243, 20);
+    color: rgb(15, 15, 15);
     text-decoration: none;
     font-size: 18px;
     
@@ -26,12 +26,12 @@ body {
 
   .contact:hover {
     text-decoration: underline;
-    color: #c73d80;  
+    color: hsl(0, 0%, 6%);  
   }
 
   footer {
-    background-color: rgb(217, 203, 203); 
-    color: rgb(234, 16, 16);          
+    background-color: rgb(245, 236, 236); 
+    color: rgb(243, 152, 15);          
     padding: 20px;         
     display: flex;          
     justify-content: center;
@@ -40,13 +40,13 @@ body {
   }
 
   footer a {
-    color: aquamarine;      
+    color: rgb(243, 135, 11);      
     text-decoration: none;  
     margin-top: 10px;       
   }
 
   .splash {
-    background-color: hsl(212, 25%, 15%);      
+    background-color: hsl(0, 0%, 1%);      
   
     background-size: cover;       
     color: rgb(39, 32, 32);                   
@@ -65,7 +65,7 @@ body {
                      content:center;
               
     height: 270px;                  
- border: 5px solid rgb(64, 200, 193);        
+ border: 5px solid rgb(233, 176, 21);        
     margin-bottom: 100px;           
   }
 
@@ -73,42 +73,42 @@ body {
     background-color: rgb(13, 13, 13);
     font-family: 'Roboto', sans-serif;
     font-size: 4rem;               
-    color: #51d5e4;                   
+    color: #f09f09;                   
     margin: 20px 0;                   
   }
 
   .address {
     font-family: 'Arial', sans-serif;
     font-size: 1.2rem; 
-    color: #64c6fa;   
+    color: #eb9d0d;   
     text-align: center;   
-    background-color: #1f2224;  
+    background-color: #050505;  
   }
 
   .tagline{
     font-family: Bookman, URW Bookman L, serif;
     font-size: 1 rem;
-    color: #64c6fa;
-    background-color: #1f2224;  
+    color: #f79a0e;
+    background-color: #030303;  
   }
 
   hr{
-    background-color: #0f161b;
+    background-color: #131414;
     width: 90%;
-    border-top: 4px solid #3498db;    
+    border-top: 4px solid #080808;    
     border-bottom: 5px dashed #171818;  
     
   }
 
   h2{
     font-family: "Audiowide", sans-serif;
-background-color: #0f161b;
-    color: #21e8f2; 
+background-color: #070707;
+    color: #e6a418; 
   }
 
   .edu{
     background-color: #0f161b;   
-    color: #64c6fa;   
+    color: #f3970c;   
   }
 
   .skill{
@@ -116,7 +116,7 @@ background-color: #0f161b;
     margin: 15px 0;    
     background-color: #0f161b;
     padding-left: 40px;
-color: #21e8f2;
+color: #ee8309;
 font-size: 2rem; 
   }
 
@@ -125,20 +125,20 @@ font-size: 2rem;
     grid-template-columns: 300px auto; 
     gap: 20px 20px;   
     align-items: flex-end;  
-    background-color: #0f161b; 
-    color: #21e8f2;
+    background-color: #0a0a0a; 
+    color: #e9a20b;
    
   }
 
 .a{
-    color: #f4f73f;  
+    color: #ee9611;  
     text-decoration: none;      
 }
 
 
 .lne{
-    background-color: #0f161b;
-    color: #5ee0f1;
+    background-color: #141414;
+    color: #f3a909;
 
 }
 
@@ -156,11 +156,11 @@ font-size: 2rem;
 
 .card {
     padding: 5px;
-    color: #21e8f2;
+    color: #fc9209;
     background-color: rgb(11, 9, 9);               
-    border-radius: 1px;                   
+    border-radius: 2px;                   
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.15); 
-    border: 6px solid #ddd;         
+    border: 6px solid #0a0a0a;         
     transition: transform 0.4s ease;      
   }
 
@@ -171,17 +171,17 @@ font-size: 2rem;
   .project-card h3 {
     font-size: 1.5rem;
     margin-bottom: 15px;
-    color: #34b1db;
+    color: #f3eaea;
   }
 
   .top{
-    color: #21e8f2;
+    color: #131414;
   }
 
 .one-col{
     max-width: 500px; 
     background-color: rgb(25, 24, 24);
-    color: #21e8f2;
+    color: #ee840c;
     font-size: 16px;
 }
 
@@ -190,8 +190,8 @@ font-size: 2rem;
 form {
     display: flex;
     flex-direction: column; 
-    background-color: #7ee2e2; 
-
+    background-color: #f18e0b; 
+ color:#080808
 }
 
 form label {
@@ -202,14 +202,14 @@ form label {
 form input, form textarea {
     padding: 5px;         
     margin-bottom: 10px;     
-    border: 1px solid #ccc; 
+    border: 1px solid #030303; 
     border-radius: 5px;      
     font-size: 1rem;         
 }
 
 form input:focus, form textarea:focus {
     outline: none;          
-    border-color: #0077b5;   
+    border-color: #0a0a0a;   
 }
 
 form textarea {
@@ -217,6 +217,27 @@ form textarea {
     resize: vertical;   
      
 }
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: rgb(15, 15, 15);
+  font-family: Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav, section, footer {
+  background-color: black;
+  color: rgb(238, 231, 231);
+}
+
+/* Additional styling for specific elements can be included here */
 
 
 
